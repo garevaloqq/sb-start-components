@@ -5,7 +5,8 @@ export default {
   title: "UI/MyLabel",
   component: MyLabel,
   argTypes: {
-    color: { control: 'color' },
+    color: { control: "color" },
+    backgroundColor: { control: "color" },
   },
 } as ComponentMeta<typeof MyLabel>;
 
@@ -36,4 +37,11 @@ export const Tertiary = template.bind({});
 Tertiary.args = {
   size: "normal",
   color: "tertiary",
+};
+
+export const CustomBackground = template.bind({});
+CustomBackground.args = {
+  size: "h1",
+  color: "white",
+  backgroundColor: "black",
 };
