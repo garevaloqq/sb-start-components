@@ -20,7 +20,7 @@ export interface Props {
   /**
    * Capitalize text?
    */
-  allCaps: boolean;
+  allCaps?: boolean;
 }
 
 /**
